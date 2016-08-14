@@ -55,6 +55,7 @@ overwriteSettings:
       Language: merge
           Templates:
             List.html: keep
+            Show.html: keep
 
   ext_icon.gif: keep
 
