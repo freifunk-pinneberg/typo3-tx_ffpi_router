@@ -156,10 +156,9 @@ return array(
 			'exclude' => 1,
 			'label' => 'LLL:EXT:ffpi_router/Resources/Private/Language/locallang_db.xlf:tx_ffpirouter_domain_model_router.radio5',
 			'config' => array(
-				'type' => 'input',
-				'size' => 30,
-				'eval' => 'trim'
-			),
+				'type' => 'check',
+				'default' => 0
+			)
 		),
 		'outdoor' => array(
 			'exclude' => 1,

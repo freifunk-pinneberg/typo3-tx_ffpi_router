@@ -141,10 +141,10 @@ class RouterTest extends \TYPO3\CMS\Core\Tests\UnitTestCase
 	/**
 	 * @test
 	 */
-	public function getRadio5ReturnsInitialValueForString()
+	public function getRadio5ReturnsInitialValueForBool()
 	{
 		$this->assertSame(
-			'',
+			FALSE,
 			$this->subject->getRadio5()
 		);
 	}
@@ -152,12 +152,12 @@ class RouterTest extends \TYPO3\CMS\Core\Tests\UnitTestCase
 	/**
 	 * @test
 	 */
-	public function setRadio5ForStringSetsRadio5()
+	public function setRadio5ForBoolSetsRadio5()
 	{
-		$this->subject->setRadio5('Conceived at T3CON10');
+		$this->subject->setRadio5(TRUE);
 
 		$this->assertAttributeEquals(
-			'Conceived at T3CON10',
+			TRUE,
 			'radio5',
 			$this->subject
 		);

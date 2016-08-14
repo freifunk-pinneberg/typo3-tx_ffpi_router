@@ -65,7 +65,7 @@ class Router extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Has 5 Ghz wifi
      *
-     * @var string
+     * @var bool
      */
     protected $radio5 = '';
     
@@ -259,27 +259,6 @@ class Router extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     public function isRadio2()
     {
         return $this->radio2;
-    }
-    
-    /**
-     * Returns the radio5
-     *
-     * @return string $radio5
-     */
-    public function getRadio5()
-    {
-        return $this->radio5;
-    }
-    
-    /**
-     * Sets the radio5
-     *
-     * @param string $radio5
-     * @return void
-     */
-    public function setRadio5($radio5)
-    {
-        $this->radio5 = $radio5;
     }
     
     /**
@@ -584,6 +563,27 @@ class Router extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     public function setPicture(\TYPO3\CMS\Extbase\Domain\Model\FileReference $picture)
     {
         $this->picture = $picture;
+    }
+    
+    /**
+     * Returns the radio5
+     *
+     * @return bool radio5
+     */
+    public function getRadio5()
+    {
+        return $this->radio5;
+    }
+    
+    /**
+     * Sets the radio5
+     *
+     * @param string $radio5
+     * @return void
+     */
+    public function setRadio5($radio5)
+    {
+        $this->radio5 = $radio5;
     }
 
 }

@@ -51,7 +51,7 @@ CREATE TABLE tx_ffpirouter_domain_model_router (
 	manufacturer int(11) DEFAULT '0' NOT NULL,
 	description text NOT NULL,
 	radio2 tinyint(1) unsigned DEFAULT '0' NOT NULL,
-	radio5 varchar(255) DEFAULT '' NOT NULL,
+	radio5 tinyint(1) unsigned DEFAULT '0' NOT NULL,
 	outdoor tinyint(1) unsigned DEFAULT '0' NOT NULL,
 	internal_antenna int(11) DEFAULT '0' NOT NULL,
 	external_antenna int(11) DEFAULT '0' NOT NULL,
