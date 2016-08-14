@@ -43,8 +43,8 @@ class Router extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Manufacturer id
      *
-     * @var int
-     * @validate NotEmpty
+     * @var \FFPI\FfpiRouter\Domain\Model\Manufacturer
+     * @inject
      */
     protected $manufacturer = 0;
     
