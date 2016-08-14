@@ -20,7 +20,7 @@
                         <dd>{router.manufacturer.name}</dd>
 
                         <dt><f:translate key="tx_ffpirouter_domain_model_router.price"/></dt>
-                        <dd>{router.price} €</dd>
+                        <dd><f:format.currency currencySign="€" decimalSeparator="," thousandsSeparator=".">{router.price}</f:format.currency></dd>
 
                         <dt><f:translate key="tx_ffpirouter_domain_model_router.description"/></dt>
                         <dd><f:format:nl2br>{router.description}</f:format:nl2br></dd>

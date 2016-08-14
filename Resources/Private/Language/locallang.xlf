@@ -28,10 +28,10 @@
 				<source>Description</source>
 			</trans-unit>
 			<trans-unit id="tx_ffpirouter_domain_model_router.radio2">
-				<source>Radio2</source>
+				<source>2,4 Ghz wifi</source>
 			</trans-unit>
 			<trans-unit id="tx_ffpirouter_domain_model_router.radio5">
-				<source>Radio5</source>
+				<source>5 Ghz Wifi</source>
 			</trans-unit>
 			<trans-unit id="tx_ffpirouter_domain_model_router.outdoor">
 				<source>Outdoor</source>
@@ -43,28 +43,28 @@
 				<source>External Antenna</source>
 			</trans-unit>
 			<trans-unit id="tx_ffpirouter_domain_model_router.wan_ports">
-				<source>Wan Ports</source>
+				<source>WAN Ports</source>
 			</trans-unit>
 			<trans-unit id="tx_ffpirouter_domain_model_router.lan_ports">
-				<source>Lan Ports</source>
+				<source>LAN Ports</source>
 			</trans-unit>
 			<trans-unit id="tx_ffpirouter_domain_model_router.wan_speed">
-				<source>Wan Speed</source>
+				<source>WAN Speed</source>
 			</trans-unit>
 			<trans-unit id="tx_ffpirouter_domain_model_router.lan_speed">
-				<source>Lan Speed</source>
+				<source>LAN Speed</source>
 			</trans-unit>
 			<trans-unit id="tx_ffpirouter_domain_model_router.wlan_speed">
-				<source>Wlan Speed</source>
+				<source>wifi Speed</source>
 			</trans-unit>
 			<trans-unit id="tx_ffpirouter_domain_model_router.memory">
 				<source>Memory</source>
 			</trans-unit>
 			<trans-unit id="tx_ffpirouter_domain_model_router.ram">
-				<source>Ram</source>
+				<source>RAM</source>
 			</trans-unit>
 			<trans-unit id="tx_ffpirouter_domain_model_router.cpu">
-				<source>Cpu</source>
+				<source>CPU</source>
 			</trans-unit>
 			<trans-unit id="tx_ffpirouter_domain_model_router.price">
 				<source>Price</source>
@@ -76,7 +76,7 @@
 				<source>Picture</source>
 			</trans-unit>
 			<trans-unit id="tx_ffpirouter_domain_model_routerversion">
-				<source>Router Version</source>
+				<source>Router Versions</source>
 			</trans-unit>
 			<trans-unit id="tx_ffpirouter_domain_model_routerversion.router">
 				<source>Router</source>
@@ -91,10 +91,10 @@
 				<source>Firmware</source>
 			</trans-unit>
 			<trans-unit id="tx_ffpirouter_domain_model_firmware.version">
-				<source>Version</source>
+				<source>Firmware version</source>
 			</trans-unit>
 			<trans-unit id="tx_ffpirouter_domain_model_firmware.branch">
-				<source>Branch</source>
+				<source>Firmware branch</source>
 			</trans-unit>
 			<trans-unit id="tx_ffpirouter_domain_model_download">
 				<source>Download</source>

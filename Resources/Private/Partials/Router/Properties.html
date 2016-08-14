@@ -1,155 +1,85 @@
+<h1>{router.manufacturer.name} - {router.name}</h1>
 
-<table class="tx-ffpi-router" >
-	<tr>
-		<td>
-			<f:translate key="tx_ffpirouter_domain_model_router.name" />
-		</td>
-		<td>
-		{router.name}
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<f:translate key="tx_ffpirouter_domain_model_router.manufacturer" />
-		</td>
-		<td>
-		{router.manufacturer}
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<f:translate key="tx_ffpirouter_domain_model_router.description" />
-		</td>
-		<td>
-		{router.description}
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<f:translate key="tx_ffpirouter_domain_model_router.radio2" />
-		</td>
-		<td>
-		{router.radio2}
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<f:translate key="tx_ffpirouter_domain_model_router.radio5" />
-		</td>
-		<td>
-		{router.radio5}
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<f:translate key="tx_ffpirouter_domain_model_router.outdoor" />
-		</td>
-		<td>
-		{router.outdoor}
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<f:translate key="tx_ffpirouter_domain_model_router.internal_antenna" />
-		</td>
-		<td>
-		{router.internalAntenna}
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<f:translate key="tx_ffpirouter_domain_model_router.external_antenna" />
-		</td>
-		<td>
-		{router.externalAntenna}
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<f:translate key="tx_ffpirouter_domain_model_router.wan_ports" />
-		</td>
-		<td>
-		{router.wanPorts}
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<f:translate key="tx_ffpirouter_domain_model_router.lan_ports" />
-		</td>
-		<td>
-		{router.lanPorts}
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<f:translate key="tx_ffpirouter_domain_model_router.wan_speed" />
-		</td>
-		<td>
-		{router.wanSpeed}
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<f:translate key="tx_ffpirouter_domain_model_router.lan_speed" />
-		</td>
-		<td>
-		{router.lanSpeed}
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<f:translate key="tx_ffpirouter_domain_model_router.wlan_speed" />
-		</td>
-		<td>
-		{router.wlanSpeed}
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<f:translate key="tx_ffpirouter_domain_model_router.memory" />
-		</td>
-		<td>
-		{router.memory}
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<f:translate key="tx_ffpirouter_domain_model_router.ram" />
-		</td>
-		<td>
-		{router.ram}
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<f:translate key="tx_ffpirouter_domain_model_router.cpu" />
-		</td>
-		<td>
-		{router.cpu}
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<f:translate key="tx_ffpirouter_domain_model_router.price" />
-		</td>
-		<td>
-		{router.price}
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<f:translate key="tx_ffpirouter_domain_model_router.price_link" />
-		</td>
-		<td>
-		{router.priceLink}
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<f:translate key="tx_ffpirouter_domain_model_router.picture" />
-		</td>
-		<td>
-				<f:image src="{router.picture.originalResource.publicUrl}" width="200"/>
-		</td>
-	</tr>
-</table>
+<img src="{f:uri.image(image: router.picture)}">
+
+<f:format:raw>{router.description}</f:format:raw>
+
+Technische Details
+<dl>
+    <dt>
+        <f:translate key="tx_ffpirouter_domain_model_router.manufacturer"/>
+    </dt>
+    <dd>{router.manufacturer}</dd>
+
+    <dt>
+        <f:translate key="tx_ffpirouter_domain_model_router.radio2"/>
+    </dt>
+    <dd>{router.radio2}</dd>
+
+    <dt>
+        <f:translate key="tx_ffpirouter_domain_model_router.radio5"/>
+    </dt>
+    <dd>{router.radio5}</dd>
+
+    <dt>
+        <f:translate key="tx_ffpirouter_domain_model_router.outdoor"/>
+    </dt>
+    <dd>{router.outdoor}</dd>
+
+    <dt>
+        <f:translate key="tx_ffpirouter_domain_model_router.internal_antenna"/>
+    </dt>
+    <dd>{router.internalAntenna}</dd>
+
+    <dt>
+        <f:translate key="tx_ffpirouter_domain_model_router.external_antenna"/>
+    </dt>
+    <dd>{router.externalAntenna}</dd>
+
+    <dt>
+        <f:translate key="tx_ffpirouter_domain_model_router.wan_ports"/>
+    </dt>
+    <dd>{router.wanPorts}</dd>
+
+    <dt>
+        <f:translate key="tx_ffpirouter_domain_model_router.wan_speed"/>
+    </dt>
+    <dd>{router.wanSpeed}</dd>
+
+    <dt>
+        <f:translate key="tx_ffpirouter_domain_model_router.lan_ports"/>
+    </dt>
+    <dd>{router.lanPorts}</dd>
+
+    <dt>
+        <f:translate key="tx_ffpirouter_domain_model_router.lan_speed"/>
+    </dt>
+    <dd>{router.lanSpeed}</dd>
+
+    <dt>
+        <f:translate key="tx_ffpirouter_domain_model_router.wlan_speed"/>
+    </dt>
+    <dd>{router.wlanSpeed}</dd>
+
+    <dt>
+        <f:translate key="tx_ffpirouter_domain_model_router.memory"/>
+    </dt>
+    <dd>{router.memory}</dd>
+
+    <dt>
+        <f:translate key="tx_ffpirouter_domain_model_router.ram"/>
+    </dt>
+    <dd>{router.ram}</dd>
+
+    <dt>
+        <f:translate key="tx_ffpirouter_domain_model_router.cpu"/>
+    </dt>
+    <dd>{router.cpu}</dd>
+
+    <dt>
+        <f:translate key="tx_ffpirouter_domain_model_router.price"/>
+    </dt>
+    <dd>
+        <f:format.currency currencySign="€" decimalSeparator="," thousandsSeparator=".">{router.price}</f:format.currency>
+    </dd>
+</dl>
