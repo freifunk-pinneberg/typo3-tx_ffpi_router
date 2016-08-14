@@ -35,8 +35,8 @@ class RouterVersion extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Router ID
      *
-     * @var int
-     * @validate NotEmpty
+     * @var \FFPI\FfpiRouter\Domain\Model\Router
+     * @inject
      */
     protected $router = 0;
     
@@ -58,7 +58,7 @@ class RouterVersion extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Returns the router
      *
-     * @return int $router
+     * @return \FFPI\FfpiRouter\Domain\Model\Router $router
      */
     public function getRouter()
     {

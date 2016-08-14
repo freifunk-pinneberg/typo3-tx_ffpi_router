@@ -52,12 +52,13 @@ overwriteSettings:
 
   Resources:
     Private:
-      #Language: merge
-      #Templates: keep
+      Language: merge
+          Templates:
+            List.html: keep
 
   ext_icon.gif: keep
 
-#  ext_localconf.php: merge
+  ext_localconf.php: merge
 
 #  ext_tables.php: merge
 

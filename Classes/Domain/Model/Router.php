@@ -191,7 +191,7 @@ class Router extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Returns the manufacturer
      *
-     * @return int $manufacturer
+     * @return \FFPI\FfpiRouter\Domain\Model\Manufacturer $manufacturer
      */
     public function getManufacturer()
     {
