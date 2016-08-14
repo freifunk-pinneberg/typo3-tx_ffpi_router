@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-08-14T08:26:43Z" product-name="ffpi_router">
+		<header/>
+		<body>
+			<trans-unit id="tx_ffpirouter_domain_model_manufacturer">
+				<source>Manufacturer</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_manufacturer.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_manufacturer.website">
+				<source>Website</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_manufacturer.picture">
+				<source>Picture</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_router">
+				<source>Router</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_router.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_router.manufacturer">
+				<source>Manufacturer</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_router.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_router.radio2">
+				<source>Radio2</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_router.radio5">
+				<source>Radio5</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_router.outdoor">
+				<source>Outdoor</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_router.internal_antenna">
+				<source>Internal Antenna</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_router.external_antenna">
+				<source>External Antenna</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_router.wan_ports">
+				<source>Wan Ports</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_router.lan_ports">
+				<source>Lan Ports</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_router.wan_speed">
+				<source>Wan Speed</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_router.lan_speed">
+				<source>Lan Speed</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_router.wlan_speed">
+				<source>Wlan Speed</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_router.memory">
+				<source>Memory</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_router.ram">
+				<source>Ram</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_router.cpu">
+				<source>Cpu</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_router.price">
+				<source>Price</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_router.price_link">
+				<source>Price Link</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_router.picture">
+				<source>Picture</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_routerversion">
+				<source>Router Version</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_routerversion.router">
+				<source>Router</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_routerversion.version">
+				<source>Version</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_routerversion.picture">
+				<source>Picture</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_firmware">
+				<source>Firmware</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_firmware.version">
+				<source>Version</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_firmware.branch">
+				<source>Branch</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_download">
+				<source>Download</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_download.type">
+				<source>Type</source>
+			</trans-unit>
+			<trans-unit id="tx_ffpirouter_domain_model_download.link_template">
+				<source>Link Template</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

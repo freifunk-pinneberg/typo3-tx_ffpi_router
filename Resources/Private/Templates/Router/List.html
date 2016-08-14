@@ -1,0 +1,73 @@
+
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<h1>Listing for Router</h1>
+
+<f:flashMessages />
+
+<table  class="tx_ffpirouter" >
+	<tr>
+		<th><f:translate key="tx_ffpirouter_domain_model_router.name" /></th>
+		<th><f:translate key="tx_ffpirouter_domain_model_router.manufacturer" /></th>
+		<th><f:translate key="tx_ffpirouter_domain_model_router.description" /></th>
+		<th><f:translate key="tx_ffpirouter_domain_model_router.radio2" /></th>
+		<th><f:translate key="tx_ffpirouter_domain_model_router.radio5" /></th>
+		<th><f:translate key="tx_ffpirouter_domain_model_router.outdoor" /></th>
+		<th><f:translate key="tx_ffpirouter_domain_model_router.internal_antenna" /></th>
+		<th><f:translate key="tx_ffpirouter_domain_model_router.external_antenna" /></th>
+		<th><f:translate key="tx_ffpirouter_domain_model_router.wan_ports" /></th>
+		<th><f:translate key="tx_ffpirouter_domain_model_router.lan_ports" /></th>
+		<th><f:translate key="tx_ffpirouter_domain_model_router.wan_speed" /></th>
+		<th><f:translate key="tx_ffpirouter_domain_model_router.lan_speed" /></th>
+		<th><f:translate key="tx_ffpirouter_domain_model_router.wlan_speed" /></th>
+		<th><f:translate key="tx_ffpirouter_domain_model_router.memory" /></th>
+		<th><f:translate key="tx_ffpirouter_domain_model_router.ram" /></th>
+		<th><f:translate key="tx_ffpirouter_domain_model_router.cpu" /></th>
+		<th><f:translate key="tx_ffpirouter_domain_model_router.price" /></th>
+		<th><f:translate key="tx_ffpirouter_domain_model_router.price_link" /></th>
+		<th><f:translate key="tx_ffpirouter_domain_model_router.picture" /></th>
+		<th> </th>
+		<th> </th>
+	</tr>
+
+	<f:for each="{routers}" as="router">
+		<tr>
+			<td><f:link.action action="show" arguments="{router : router}"> {router.name}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{router : router}"> {router.manufacturer}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{router : router}"> {router.description}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{router : router}"> {router.radio2}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{router : router}"> {router.radio5}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{router : router}"> {router.outdoor}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{router : router}"> {router.internalAntenna}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{router : router}"> {router.externalAntenna}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{router : router}"> {router.wanPorts}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{router : router}"> {router.lanPorts}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{router : router}"> {router.wanSpeed}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{router : router}"> {router.lanSpeed}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{router : router}"> {router.wlanSpeed}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{router : router}"> {router.memory}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{router : router}"> {router.ram}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{router : router}"> {router.cpu}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{router : router}"> {router.price}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{router : router}"> {router.priceLink}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{router : router}"> {router.picture.originalResource.name}</f:link.action></td>
+			<td><f:link.action action="edit" arguments="{router : router}">Edit</f:link.action></td>
+			<td><f:link.action action="delete" arguments="{router : router}">Delete</f:link.action></td>
+		</tr>
+	</f:for>
+</table>
+
+<f:link.action action="new">New Router</f:link.action>
+</f:section>

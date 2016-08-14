@@ -1,0 +1,67 @@
+
+plugin.tx_ffpirouter_manufacturer {
+	view {
+		templateRootPaths.0 = {$plugin.tx_ffpirouter_manufacturer.view.templateRootPath}
+		partialRootPaths.0 = {$plugin.tx_ffpirouter_manufacturer.view.partialRootPath}
+		layoutRootPaths.0 = {$plugin.tx_ffpirouter_manufacturer.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_ffpirouter_manufacturer.persistence.storagePid}
+	}
+}
+
+plugin.tx_ffpirouter_router {
+	view {
+		templateRootPaths.0 = {$plugin.tx_ffpirouter_router.view.templateRootPath}
+		partialRootPaths.0 = {$plugin.tx_ffpirouter_router.view.partialRootPath}
+		layoutRootPaths.0 = {$plugin.tx_ffpirouter_router.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_ffpirouter_router.persistence.storagePid}
+	}
+}
+
+plugin.tx_ffpirouter_routerversions {
+	view {
+		templateRootPaths.0 = {$plugin.tx_ffpirouter_routerversions.view.templateRootPath}
+		partialRootPaths.0 = {$plugin.tx_ffpirouter_routerversions.view.partialRootPath}
+		layoutRootPaths.0 = {$plugin.tx_ffpirouter_routerversions.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_ffpirouter_routerversions.persistence.storagePid}
+	}
+}
+
+plugin.tx_ffpirouter._CSS_DEFAULT_STYLE (
+	textarea.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-ffpi-router table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-ffpi-router table th {
+		font-weight:bold;
+	}
+
+	.tx-ffpi-router table td {
+		vertical-align:top;
+	}
+
+	.typo3-messages .message-error {
+		color:red;
+	}
+
+	.typo3-messages .message-ok {
+		color:green;
+	}
+
+)

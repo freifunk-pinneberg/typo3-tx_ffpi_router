@@ -1,0 +1,45 @@
+
+plugin.tx_ffpirouter_manufacturer {
+	view {
+		# cat=plugin.tx_ffpirouter_manufacturer/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:ffpi_router/Resources/Private/Templates/
+		# cat=plugin.tx_ffpirouter_manufacturer/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:ffpi_router/Resources/Private/Partials/
+		# cat=plugin.tx_ffpirouter_manufacturer/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:ffpi_router/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_ffpirouter_manufacturer//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}
+
+plugin.tx_ffpirouter_router {
+	view {
+		# cat=plugin.tx_ffpirouter_router/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:ffpi_router/Resources/Private/Templates/
+		# cat=plugin.tx_ffpirouter_router/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:ffpi_router/Resources/Private/Partials/
+		# cat=plugin.tx_ffpirouter_router/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:ffpi_router/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_ffpirouter_router//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}
+
+plugin.tx_ffpirouter_routerversions {
+	view {
+		# cat=plugin.tx_ffpirouter_routerversions/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:ffpi_router/Resources/Private/Templates/
+		# cat=plugin.tx_ffpirouter_routerversions/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:ffpi_router/Resources/Private/Partials/
+		# cat=plugin.tx_ffpirouter_routerversions/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:ffpi_router/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_ffpirouter_routerversions//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}

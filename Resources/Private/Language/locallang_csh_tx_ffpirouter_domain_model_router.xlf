@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-08-14T08:26:43Z" product-name="ffpi_router">
+		<header/>
+		<body>
+			<trans-unit id="name.description">
+				<source>The name of the router</source>
+			</trans-unit>
+			<trans-unit id="manufacturer.description">
+				<source>Manufacturer id</source>
+			</trans-unit>
+			<trans-unit id="description.description">
+				<source>Router description</source>
+			</trans-unit>
+			<trans-unit id="radio2.description">
+				<source>Has 2,4 Ghz wifi</source>
+			</trans-unit>
+			<trans-unit id="radio5.description">
+				<source>Has 5 Ghz wifi</source>
+			</trans-unit>
+			<trans-unit id="outdoor.description">
+				<source>Intended for outdoor use</source>
+			</trans-unit>
+			<trans-unit id="internal_antenna.description">
+				<source>Number of internal/fixed Antennas</source>
+			</trans-unit>
+			<trans-unit id="external_antenna.description">
+				<source>Number of external/detachable Antennas</source>
+			</trans-unit>
+			<trans-unit id="wan_ports.description">
+				<source>Number of WAN ports</source>
+			</trans-unit>
+			<trans-unit id="lan_ports.description">
+				<source>Number of LAN Ports</source>
+			</trans-unit>
+			<trans-unit id="wan_speed.description">
+				<source>Speed of the WAN Ports in mbit/s</source>
+			</trans-unit>
+			<trans-unit id="lan_speed.description">
+				<source>Speed of the LAN Ports in mbit/s</source>
+			</trans-unit>
+			<trans-unit id="wlan_speed.description">
+				<source>Max wifi speed in mbit/s</source>
+			</trans-unit>
+			<trans-unit id="memory.description">
+				<source>Flash storage in MB</source>
+			</trans-unit>
+			<trans-unit id="ram.description">
+				<source>RAM in MB</source>
+			</trans-unit>
+			<trans-unit id="cpu.description">
+				<source>CPU Clock in Mhz</source>
+			</trans-unit>
+			<trans-unit id="price.description">
+				<source>€</source>
+			</trans-unit>
+			<trans-unit id="price_link.description">
+				<source>Link to a price comparison site or shop</source>
+			</trans-unit>
+			<trans-unit id="picture.description">
+				<source>a photo from the router</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

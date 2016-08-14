@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-08-14T08:26:43Z" product-name="ffpi_router">
+		<header/>
+		<body>
+			<trans-unit id="router.description">
+				<source>Router ID</source>
+			</trans-unit>
+			<trans-unit id="version.description">
+				<source>Router Version</source>
+			</trans-unit>
+			<trans-unit id="picture.description">
+				<source>picture</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
